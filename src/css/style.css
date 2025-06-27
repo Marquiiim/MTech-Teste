@@ -63,12 +63,15 @@ html {
   background-color: #D4AF37;
   color: white;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
 .buttons input:hover {
   opacity: 0.9;
+  transform: scale(1.1);
 }
 .buttons input:active {
   opacity: 0.8;
+  transform: scale(1);
 }
 
 .container_result {
@@ -82,7 +85,7 @@ html {
 .container_result .content_result li .result_group {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.3rem;
 }
 .container_result .content_result span {
   color: #D4AF37;

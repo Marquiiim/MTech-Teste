@@ -68,13 +68,16 @@ html {
         background-color: #D4AF37;
         color: white;
         cursor: pointer;
+        transition: transform 0.3s ease-in-out;
 
         &:hover {
             opacity: 0.9;
+            transform: scale(1.1);
         }
 
         &:active {
             opacity: 0.8;
+            transform: scale(1.0);
         }
     }
 }
@@ -93,7 +96,7 @@ html {
             .result_group {
                 display: flex;
                 flex-direction: column;
-                gap: .6rem;
+                gap: .3rem;
             }
         }
 
