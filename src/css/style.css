@@ -76,6 +76,8 @@ html {
 
 .container_result {
   margin-top: 1rem;
+  padding: 1rem;
+  border-top: 2px solid #D4AF37;
 }
 .container_result .content_result {
   display: flex;
